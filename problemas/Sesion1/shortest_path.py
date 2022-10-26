@@ -62,6 +62,7 @@ def process(rows: int, cols: int) -> tuple[UndirectedGraph[Vertex], list[Vertex]
 def show_results(path: list[Vertex]):
     for v in path:
         print(v)
+    print(len(path))
 
 
 if __name__ == '__main__':

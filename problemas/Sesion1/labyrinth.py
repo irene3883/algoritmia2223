@@ -7,7 +7,7 @@ from random import shuffle
 Vertex = tuple[int, int]
 
 
-def create_labyrinth(rows: int, cols: int, n:int=50) -> UndirectedGraph[Vertex]:
+def create_labyrinth(rows: int, cols: int, n:int=1) -> UndirectedGraph[Vertex]:
     vertices: list[Vertex] = [(row, col) for row in range(rows) for col in range(cols)]
     mfs: MergeFindSet[Vertex] = MergeFindSet()
     for v in vertices:

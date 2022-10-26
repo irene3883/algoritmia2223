@@ -8,6 +8,7 @@ from algoritmia.algorithms.traversers import bf_vertex_traverser
 
 
 
+
 Vertex = tuple[int, int]
 Edge = tuple[Vertex, Vertex]
 
